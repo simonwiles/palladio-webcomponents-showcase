@@ -245,6 +245,7 @@ palladio-graph-component,
 palladio-cards-component {
   overflow: hidden;
   height: calc(100% - 30px);
+  font-size: 14px;
 }
 
 .error-msg {
