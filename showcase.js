@@ -103,7 +103,7 @@ function renderComponents(projectData) {
        </div></div>`,
       component.conf,
     );
-    widget.querySelector(component.component).render(projectData);
+    widget.querySelector(component.component).parseData(projectData);
     widget
       .querySelector("span")
       .addEventListener("click", () => grid.removeWidget(widget));
