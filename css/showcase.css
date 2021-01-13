@@ -240,9 +240,9 @@ div.tab-content.active :last-child {
   text-transform: uppercase;
 }
 
-palladio-map-component,
-palladio-graph-component,
-palladio-cards-component {
+palladio-map,
+palladio-graph,
+palladio-gallery {
   overflow: hidden;
   height: calc(100% - 30px);
   font-size: 14px;

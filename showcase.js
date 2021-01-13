@@ -71,7 +71,7 @@ function renderComponents(projectData) {
   [
     {
       title: "Map",
-      component: "palladio-map-component",
+      component: "palladio-map",
       attrs: {
         "zoom-to-fit": null,
         "mapbox-token":
@@ -81,13 +81,13 @@ function renderComponents(projectData) {
     },
     {
       title: "Graph",
-      component: "palladio-graph-component",
+      component: "palladio-graph",
       attrs: {},
       conf: { width: 6, height: 6 },
     },
     {
       title: "Gallery",
-      component: "palladio-cards-component",
+      component: "palladio-gallery",
       attrs: {},
       conf: { width: 12, height: 6 },
     },
